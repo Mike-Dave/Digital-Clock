@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  display: flex;
+  justify-content: center;
+  color: #e8eef1;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  border: 2px solid white;
+  padding: 20px;
+}
+.container:hover {
+  background-color: #083aa9;
+  cursor: pointer;
+}
+
+.date-box {
+  font-size: 25px;
+  padding-bottom: 3px;
+}
+
+.time-box {
+  font-size: 40px;
+  border: 30px;
+}
